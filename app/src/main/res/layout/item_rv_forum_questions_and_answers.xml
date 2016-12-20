@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/cv_forum_q_a"
+
+    android:layout_height="wrap_content">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tv_nick_name_forum_q_a"
+            android:layout_weight="4"
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+
+            android:layout_height="wrap_content"
+            android:textColor="#8f8f8f"
+            android:text="(dsfsdf)"/>
+        <ImageView
+            android:id="@+id/image1"
+            android:alpha="1"
+            android:background="@drawable/tv_message"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="-5dp"/>
+
+        <TextView
+            android:background="@drawable/tv_message_rec_white"
+            android:id="@+id/tv_text_forum_q_a"
+            android:layout_weight="1"
+            android:padding="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ASDFGHJKLTRDsud yfytFJUY uhiu\n gjdsgkfsdgcjhgkh fksfdkjghjvg jkhjjbkg hjvjsdbyu bsdjb hjvsjdkb hj"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_marginRight="10dp"
+            android:id="@+id/tv_nick_name_forum_q_a2"
+            android:layout_weight="4"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+
+            android:layout_height="wrap_content"
+            android:textColor="#8f8f8f"
+            android:text="(dsfsdf)"/>
+        <ImageView
+            android:id="@+id/image2"
+            android:alpha="1"
+            android:background="@drawable/tv_message_blue"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="end"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="-5dp"/>
+
+        <TextView
+
+            android:background="@drawable/tv_message_rec_blue"
+            android:id="@+id/tv_text_forum_q_a2"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ajghjvg jkhjjbkjb hjvsjdkb hj"/>
+
+
+    </LinearLayout>
+</LinearLayout>

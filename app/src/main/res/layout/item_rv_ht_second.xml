@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+
+        android:layout_gravity="center_horizontal"
+
+        android:scaleType="center"
+        android:src="@drawable/emblem_for_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_mig_second"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:lineSpacingMultiplier="1.5"
+        android:textSize="16sp"
+        android:text="asdasdasdasdasda sdas dasd asd asd"
+        android:id="@+id/tv_mig_second"/>
+    </LinearLayout>
+    </LinearLayout>

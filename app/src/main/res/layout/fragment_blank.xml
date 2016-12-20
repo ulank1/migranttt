@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#e3e3e3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.StoryFragment"
+    android:orientation="vertical">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+
+       android:layout_width="match_parent"
+
+       android:layout_height="match_parent"
+        android:layout_weight="1">
+    <android.support.v7.widget.RecyclerView
+        android:layout_margin="7dp"
+        android:background="@drawable/rv_embassy"
+        android:layout_width="match_parent"
+        android:id="@+id/rv_forum"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+   </LinearLayout>
+    <ProgressBar
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress"/>
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="No Records"
+        android:visibility="gone" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_margin="10dp"
+            android:background="@drawable/button_fragment"
+            android:textColor="#effcfa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Рассказать свою историю"
+            android:id="@+id/new_story_button"/>
+    </LinearLayout>
+</LinearLayout>

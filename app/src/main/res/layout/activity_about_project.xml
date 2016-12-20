@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".Activities.AboutProjectActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:src="@drawable/logo"
+                    android:layout_height="135dp" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:textSize="16sp"
+                android:text="@string/tv_about_project_name"
+                android:layout_height="wrap_content" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:background="@color/cardview_dark_background"
+                android:layout_height="1dp"></View>
+
+
+            <ImageView
+                android:paddingTop="7dp"
+                android:layout_width="140dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/kyrgyzstan_gerb"
+                android:layout_height="120dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:textSize="16sp"
+                android:text="Государственная миграционная служба при Правительстве Кыргызской Республики"
+                android:layout_height="wrap_content" />
+
+            <View
+
+                android:background="@color/cardview_dark_background"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"></View>
+
+            <LinearLayout
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/emblem_for_about"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="Международная организация по миграции"
+                    android:layout_height="wrap_content" />
+
+
+                <View
+                    android:layout_marginTop="7dp"
+                    android:background="@color/cardview_dark_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"></View>
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/flag_usa"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:text="Государственный Департамент США"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+            <!--<TextView-->
+            <!--android:paddingTop="10dp"-->
+            <!--android:layout_margin="20dp"-->
+            <!--android:textSize="20sp"-->
+            <!--android:textColor="#1baded"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Приложение разработано для содействия Правительству Кыргызской Республики"-->
+            <!--android:id="@+id/textView" />-->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

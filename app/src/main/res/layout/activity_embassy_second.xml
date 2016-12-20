@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:background="#e3e3e3"
+    android:orientation="vertical"
+    tools:context="com.example.admin.pagination.Activities.SecondActivities.EmbassySecondActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+
+
+
+
+    <TextView
+        android:paddingTop="12dp"
+        android:paddingLeft="29dp"
+        android:paddingRight="22dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_embassy_second"
+        android:text="Посольство Кыргызской Республики"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#4e4e4e"
+        />
+            <LinearLayout
+                android:layout_margin="7dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:background="@drawable/rv_embassy"
+                android:layout_height="wrap_content">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp">
+       <ImageView
+           android:layout_margin="15dp"
+           android:layout_width="22dp"
+           android:layout_height="22dp"
+           android:background="@drawable/phone"
+           />
+
+        <TextView
+            android:paddingLeft="15dp"
+            android:textSize="16sp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_phone_number_second"
+            />
+    </LinearLayout>
+                <TextView
+                    android:background="#FFE3E3E3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp">
+        <ImageView
+            android:layout_margin="15dp"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@drawable/fax"
+            />
+
+        <TextView
+            android:paddingLeft="15dp"
+            android:text="sdsf"
+            android:textSize="16sp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_fax_second"
+            />
+    </LinearLayout>
+
+                <TextView
+                    android:background="#FFE3E3E3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp">
+        <ImageView
+            android:layout_margin="15dp"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@drawable/location"
+            />
+
+        <TextView
+            android:paddingLeft="15dp"
+            android:text="sdsf"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_address_second"
+            />
+    </LinearLayout>
+                <TextView
+                    android:background="#FFE3E3E3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <ImageView
+                        android:layout_margin="15dp"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:background="@drawable/website"
+                        />
+
+                    <TextView
+                        android:paddingLeft="15dp"
+                        android:text="sdsf"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:id="@+id/tv_site_second"
+                        />
+                </LinearLayout>
+                <TextView
+                    android:background="#FFE3E3E3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+    </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_consulate_second"
+                android:paddingLeft="29dp"
+                android:paddingRight="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/tv_embassy_consulate"
+                android:textSize="18sp"
+                android:textColor="#4e4e4e"
+                />
+
+            <LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.RecyclerView
+        android:background="@drawable/rv_embassy"
+        android:layout_margin="7dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:id="@+id/rv_consulate"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress"/>
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="No Records"
+        android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>

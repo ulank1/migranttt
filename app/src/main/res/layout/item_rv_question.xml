@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/cv_forum"
+    android:paddingBottom="3dp"
+    android:background="#afb2b1"
+    android:layout_height="wrap_content"
+   >
+    <LinearLayout
+        android:background="#e1e1e1"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_text_question"
+            android:layout_weight="1"
+            android:textColor="#333"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text= "vg jkhjjbkg hjvjsdbyu bsdjb hjvsjdkb hj"/>
+
+        <TextView
+            android:id="@+id/tv_nick_name_question"
+            android:layout_weight="4"
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:gravity="end"
+            android:layout_height="wrap_content"
+            android:textColor="#04b2f7"
+            android:text="(dsfsdf)"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffff"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".Activities.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+
+        android:layout_weight="1" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/bt_news"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_line"
+                android:onClick="onClick"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:text="News">
+
+                <ImageView
+                    android:paddingTop="5dp"
+                    android:layout_weight="1.5"
+                    android:layout_width="match_parent"
+                    android:src="@drawable/news2"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView2" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/news"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/bt_news"
+                    android:textColor="#ffff"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/bt_instruction"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:background="@drawable/shape_line"
+                android:onClick="onClick"
+                android:orientation="vertical"
+               >
+
+
+                <ImageView
+                    android:paddingTop="5dp"
+                    android:layout_weight="1.5"
+                    android:layout_width="match_parent"
+                    android:src="@drawable/rules"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/eaeu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/bt_eaeu"
+                    android:textColor="#ffff"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/bt_tel_doveriya"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_line"
+                android:onClick="onClick"
+                android:orientation="vertical"
+
+                android:padding="5dp"
+                android:text="hot lines">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@drawable/calls"
+                    android:paddingTop="5dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:id="@+id/hot_line"
+                    android:text="@string/bt_hot_line"
+                    android:textColor="#ffff"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bt_konsulstva_diaspory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_line"
+                android:onClick="onClick"
+                android:orientation="vertical"
+                android:text="laws">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@drawable/ambasy"
+                    android:paddingTop="5dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/embassy"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/bt_embassy"
+                    android:textColor="#ffff"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/bt_diaspory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_line"
+                android:onClick="onClick"
+                android:orientation="vertical"
+
+                android:padding="5dp"
+                android:text="rules of incoming">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@drawable/groups"
+                    android:paddingTop="5dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/diaspora"
+                    android:gravity="center"
+                    android:text="@string/bt_diaspora"
+                    android:textColor="#ffff"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bt_rules_of_migration"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_line"
+                android:onClick="onClick"
+                android:orientation="vertical"
+
+                android:padding="2dp"
+                android:text="forum">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@drawable/rules2"
+                    android:paddingTop="5dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/abroad"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center"
+                    android:text="@string/bt_abroad"
+                    android:textColor="#ffff"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/bt_torgovlya"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_line"
+                android:onClick="onClick"
+                android:orientation="vertical"
+
+                android:padding="5dp"
+                android:text="rules of migration">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@drawable/slavery"
+                    android:paddingTop="5dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/bt_ht"
+                    android:textColor="#ffff"
+                    android:id="@+id/ht"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bt_zapret_v_RF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_line"
+                android:onClick="onClick"
+                android:orientation="vertical"
+
+                android:padding="5dp"
+                android:text="faq">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@drawable/deny"
+                    android:paddingTop="5dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/bt_prohibition"
+                    android:textColor="#ffff"
+                    android:id="@+id/prohibition"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/bt_trudoustiystvo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_line"
+                android:onClick="onClick"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:text="rules of migration">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@drawable/work"
+                    android:paddingTop="5dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="center"
+
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/bt_employment"
+                    android:textColor="#ffff"
+                    android:id="@+id/employ"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bt_faq"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_line"
+                android:onClick="onClick"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:text="faq">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@drawable/faq"
+                    android:paddingTop="5dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/faq"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/bt_faq"
+                    android:textColor="#ffff"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

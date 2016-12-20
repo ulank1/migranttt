@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.pagination">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity android:name=".Activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.MainActivity" />
+        <activity android:name=".Activities.AboutProjectActivity" />
+        <activity android:name=".Activities.QuestionsAndAnswersActivity" />
+        <activity android:name=".Activities.IstoriesFromLifeActivity" />
+        <activity android:name=".Activities.NewsActivity" />
+        <activity android:name=".Activities.LawsAndRightsActivity" />
+        <activity android:name=".Activities.EmbassyActivity" />
+        <activity android:name=".Activities.HotLineActivity" />
+        <activity android:name=".Activities.SecondActivities.HotLineSecondActivity" />
+        <activity android:name=".Activities.SecondActivities.NewsSecondActivity" />
+        <activity android:name=".Activities.SecondActivities.EmbassySecondActivity" />
+        <activity android:name=".Activities.RulesOfIncomingActivity" />
+        <activity android:name=".Activities.SecondActivities.RulesOfIncomingSecondActivity" />
+        <activity android:name=".Activities.RulesOfMigrationActivity" />
+        <activity android:name=".Activities.FAQActivity" />
+        <activity android:name=".Activities.ForumWievPagerActivity" />
+        <activity android:name=".Activities.SecondActivities.RegisterActivity" />
+        <activity android:name=".Activities.SecondActivities.StorySecondActivity" />
+        <activity android:name=".Activities.SecondActivities.StoryfromLifeSecondActivity" />
+        <activity android:name=".Activities.SecondActivities.NewStoryActivity" />
+        <activity android:name=".Activities.SecondActivities.NewQuestionActivity" />
+        <activity android:name=".Activities.SecondActivities.QuestionSecondActivity" />
+        <activity android:name=".Activities.SettingsActivity" />
+        <activity android:name=".Activities.SecondActivities.RulesOfMigrationActivity" />
+        <activity android:name=".Activities.EAEUActivity" />
+        <activity android:name=".Activities.AbroadActivity" />
+        <activity android:name=".Activities.HumanTraffickingActivity" />
+        <activity android:name=".Activities.EmployementActivity" />
+        <activity android:name=".Activities.SecondActivities.EmploymentSecondActivity" />
+        <activity android:name=".Activities.ProhibitionRFActivity" />
+        <activity android:name=".Activities.DiasporyActivity" />
+        <activity android:name=".Activities.SecondActivities.DiasporySecondActivity" />
+        <activity android:name=".Activities.SecondActivities.HTSecondActivity" />
+        <activity android:name=".Activities.SecondActivities.FAQSecondActivity" />
+        <activity android:name=".Activities.HotLineCountryActivity" />
+        <activity android:name=".Activities.NKOActivity" />
+        <activity android:name=".Activities.SecondActivities.NKOSecondActivity" />
+        <activity android:name=".Activities.InspectionActivity" />
+        <activity android:name=".Activities.SecondActivities.MOMGandoActivity" />
+        <activity android:name=".Activities.SynchronizeActivity"></activity>
+    </application>
+
+</manifest>

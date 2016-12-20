@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Справочник мигранта</string>
+    <string name="reg_name">Вам нужно зарегистрироваться чтобы писать на форуме</string>
+    <string name="my_text">This is an <u>underline</u>.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_item_language">kg</string>
+    <string name="call_button_text">Позвонить сейчас</string>
+    <string name="bt_news">Новости</string>
+    <string name="bt_eaeu">Правила пребывания в ЕАЭС</string>
+    <string name="bt_hot_line">Горячие линии</string>
+    <string name="bt_embassy">Посольства и консульства KP</string>
+    <string name="bt_diaspora">Диаспоры и представители</string>
+    <string name="bt_abroad">Правила пребывания за рубежом</string>
+    <string name="bt_ht">Осторожно Торговля людьми</string>
+    <string name="bt_prohibition">Запрет въезда в РФ</string>
+    <string name="bt_employment">Трудоустройтво</string>
+    <string name="bt_faq">Часто задаваемые вопросы</string>
+    <string name="ac_embassy">Посольства</string>
+    <string name="ac_abroad">Правила пребывания за рубежом</string>
+    <string name="toast_no_internet">Включите интернет и обновите</string>
+    <string name="ac_diaspora">Диаспора и общественные представители</string>
+    <string name="ac_eaeu">Правила пребывания в ЕАЭС</string>
+    <string name="ac_employment">Трудоустройство</string>
+    <string name="ac_faq">Вопросы и ответы</string>
+    <string name="ac_hotline">Горячие Линии</string>
+    <string name="ac_news">Новости</string>
+    <string name="ac_prohib">Запрет въезда в РФ</string>
+    <string name="ac_about_project">О проекте</string>
+    <string name="ac_ht">Осторожно! Торговля людьми</string>
+    <string name="menu_about">О проекте</string>
+    <string name="tv_question_faq">Ответ:</string>
+    <string name="tv_faq_answer">Вопрос:</string>
+    <string name="tv_embassy_consulate">Консульские отделы</string>
+    <string name="ac_consulate_actionbar">Консульства</string>
+    <string name="phone_line">Горячая линия Государственной службы по миграции при Правительстве КР</string>
+    <string name="tv_choose_country">Выберите страну из списка</string>
+    <string name="tv_choose_region">Выберите регион из списка</string>
+    <string name="ac_nko">НКО</string>
+    <string name="bt_nko_in_ht">НКО, рaботающих по вопросам предотвращения торговли людьми</string>
+    <string name="ac_blacklist">Черный список</string>
+    <string name="tv_blacklistin_rf">Проверить себя в черном списке</string>
+    <string name="ac_username">Введите Фамилию в форму поиска для проверки наличия в «Чёрном списке»:</string>
+    <string name="tv_date_in_blacklist">Введите дату рождения:</string>
+    <string name="toast_copy_to_buffer">Скопировано в буфер обмена</string>
+    <string name="tv_about_project_name">Проект Государственного Департамента США «Содействие Правительству Кыргызстана в укреплении нормативно-правовой и технической базы в области противодействия торговли людьми»</string>
+
+</resources>

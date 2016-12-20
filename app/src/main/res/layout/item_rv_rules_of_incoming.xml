@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/cv_forum"
+   android:background="@color/cardview_light_background"
+    android:layout_height="wrap_content"
+   >
+    <LinearLayout
+        android:padding="7dp"
+        android:background="@color/cardview_light_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+       <ImageView
+           android:visibility="gone"
+           android:id="@+id/image_rules_of_incoming"
+           android:layout_width="100dp"
+           android:layout_margin="5dp"
+
+           android:src="@drawable/website"
+           android:layout_height="100dp" />
+        <TextView
+            android:id="@+id/tv_rules_of_incoming"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:paddingLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ASDFGHJKLTRDsud yfytFJUY uhiu\n gjdsgkfsdgcjhgkh fksfdkjghjvg jkhjjbkg hjvjsdbyu bsdjb hjvsjdkb hj"/>
+
+    </LinearLayout>
+    <TextView
+        android:background="#e3e3e3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</LinearLayout>
+
